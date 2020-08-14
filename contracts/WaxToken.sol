@@ -22,7 +22,7 @@ import "zeppelin-solidity/contracts/lifecycle/Pausable.sol";
 contract WaxToken is StandardToken, Pausable {
 
   string public constant name = 'Wax Token';                              // Set the token name for display
-  string public constant symbol = 'WAX';                                  // Set the token symbol for display
+  string public constant symbol = 'WAXE';                                  // Set the token symbol for display
   uint8 public constant decimals = 8;                                     // Set the number of decimals for display
   uint256 public constant INITIAL_SUPPLY = 10e7 * 10**uint256(decimals); // supply specified in Grains
 

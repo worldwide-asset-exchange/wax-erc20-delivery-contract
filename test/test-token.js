@@ -11,12 +11,12 @@ contract('WaxToken', (accounts) => {
     })
   })
 
-  it('should have the symbol WAX', () => {
+  it('should have the symbol WAXE', () => {
     return WaxToken.deployed().then((instance) => {
       return instance.symbol.call()
     })
     .then((symbol) => {
-      assert.equal(symbol, 'WAX', "WAX wasn't the symbol")
+      assert.equal(symbol, 'WAXE', "WAXE wasn't the symbol")
     })
   })
 
